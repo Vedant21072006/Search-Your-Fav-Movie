@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moive Search </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <section class="container1">
+           <div class="inputDiv">   <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" class="input" placeholder="Search For Movies">
+         
+           </div>
+           <div class="movieNameDiv">
+            <h4 class="movieName">-Movie Name-</h4>
+           </div>
+           <div class="posterDiv">
+            <div class="posterDiv1">
+            <img src="imga.webp" height="170px" width="170px" class="photo">
+            </div>
+           </div>
+           <div class="infoDiv">
+          <div class="infoDiv1"> <p class="plot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatem atque culpa, qui quibusdam, voluptas libero molestiae odit laboriosam et eligendi cupiditate, velit quisquam aspernatur perspiciatis. Officia quo amet modi.</p></div> 
+            <div class="infodiv2">
+          <div class="div-info-1">
+              <p class="year">Year:</p>
+            <p class="rating">Rating:</p>
+            <p class="actors">Actors:</p>
+            <p class="collection">Boxoffice:</p>
+            <p class="country">Country:</p>
+        
+          </div>
+           <div class="div-info-2">
+                <p class="director">Director:</p>
+             <p class="language">Language:</p>
+            <p class="runtime">Runtime:</p>
+            <p class="type">Type:</p>
+            <p class="Quality">Quality</p>
+           </div>
+</div>
+
+            
+          </div>
+          <button class="btn1">Add to Favourite</button>
+    </section>
+    <section class="container2">
+        <h1>Your Favourite Movies</h1>
+        <div class="fav-movie-box">
+             
+        </div>
+    </section>
+
+
+<template id="template">
+  <div class="fav-box">
+    <div class="serial-no"></div>
+     <div class="movie-image">  <img src="" class="fav-image"></div>
+     <div class="movie-name"></div>
+   
+   
+    <div class="remove-button">
+      <button class="remove-btn">Remove</button>
+    </div>
+  </div>
+</template>
+    <script src="main.js"></script>
+</body>
+</html>

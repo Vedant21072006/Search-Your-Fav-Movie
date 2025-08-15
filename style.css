@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    body {
+  font-family: 'Poppins', sans-serif;
+}
+
+    display: flex;
+  gap: 100px;
+  padding: 100px 100px 0px 100px ;
+  background-image: linear-gradient(to left,black,rgba(73, 55, 55, 0),rgb(53, 49, 49),gray);
+}
+
+.container1{
+  height: 600px;
+  width: 500px;
+  background-color: aliceblue;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius:0.5rem ;
+  -webkit-border-radius:0.5rem ;
+  -moz-border-radius:0.5rem ;
+  -ms-border-radius:0.5rem ;
+  -o-border-radius:0.5rem ;
+  position: relative;
+}
+.container2{
+    height: 600px;
+    width: 500px;
+    background-color: aliceblue;
+    max-height: 600px;
+   overflow-y: auto;
+
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    border-radius:0.5rem ;
+    -webkit-border-radius:0.5rem ;
+    -moz-border-radius:0.5rem ;
+    -ms-border-radius:0.5rem ;
+    -o-border-radius:0.5rem ;
+}
+
+.inputDiv{
+
+    padding: 10px;
+}
+.movieNameDiv{
+ 
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    & h4{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+    
+    }
+}
+.plot{
+    font-size: 10px;
+}
+.posterDiv{
+    display: flex;
+  
+    place-items: center;
+    justify-content: center;
+    justify-items:center;
+   
+}
+.posterDiv1{
+    height: 170px;
+    width: 170px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.infoDiv{
+display:grid;
+grid-template-rows: 1fr 2fr;
+}
+
+.btn1{
+    padding: 10px;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+     position: absolute;
+     left:170px;
+     bottom: 10px;
+
+}
+.btn1:hover{
+   
+    background-color: white;
+    color: black;
+}
+.input{
+    width: 200px;
+    padding: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.infoDiv1{
+padding: 20px;
+& p{
+    font-size: 12px;
+}
+}
+.infodiv2{
+   display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+   
+}
+.div-info-1{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.div-info-2{
+   display: flex;
+flex-direction: column;
+gap: 10px; 
+}
+
+
+/***** container 2 *****/
+h1{text-align: center;
+padding:10px;
+}
+
+.fav-box{
+    display: flex;
+
+}
+
+.fav-box{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+
+}
+.movie-image{
+    & img{
+        height: 50px;
+        width: 50px;
+    }
+}
+.serial-no{
+    display: grid;
+    place-items: center;
+}
+.movie-name{
+    display: grid;
+    place-items: center;
+}
+.remove-button{
+    display: grid;
+    place-items: center;
+    
+}
+.remove-btn{
+    padding: 5px;
+    background-color: black;
+    color:white;
+    border: none;
+
+}
+.remove-btn:hover{
+    background-color: white;
+    color:black;
+}
+
+
+
+
+
+
+
+/***** End container 2 *****/
+
+
+
+
+
+
+
+
